@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+#timer {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #666;
+}
+.vote-btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.vote-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+#status {
+    margin-top: 20px;
+    color: #333;
+}
