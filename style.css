@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    background-image: url('bg.png');
+    background-image: url('https://pudgyquacks.github.io/pudgy-dao-mini-app/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,9 +13,9 @@ body {
     margin-bottom: 20px;
 }
 .logo {
-    width: 250px;
+    width: 150px; /* Уменьшенный размер */
     height: auto;
-    max-width: 100%;
+    max-width: 90%; /* Адаптивность */
 }
 #timer {
     font-size: 18px;
